@@ -1,0 +1,25 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  padding: 40px;
+  width: 30%;
+  /*height: 200px;*/
+  box-sizing: border-box;
+}
+
+.card:hover {
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+.card img {
+  height: 100px;
+  width: auto;
+  object-fit: cover;
+}

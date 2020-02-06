@@ -1,0 +1,42 @@
+.btn-medium {
+  font-weight: lighter;
+  padding: 15px 25px;
+  border-radius: 50px;
+  color: rgb(200, 200, 200);
+  border: solid 1px rgb(200, 200, 200);
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  font-weight: normal;
+  opacity: 1;
+}
+
+
+.btn-green {
+  background-color: #6AD58B;
+  border-radius: 4px;
+  transition: 0.3s;
+  padding: 15px 25px;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: green;
+  border-radius: 4px;
+}
+
+.btn-yours {
+  background-color: #A80A3E;
+  border-radius: 10px;
+  transition: 0.4s;
+  padding: 15px 25px;
+  color: white;
+  transition: 0.4s;
+}
+
+.btn-yours:hover {
+  background-color: white;
+  border: solid 2px #A80A3E;
+  color: #A80A3E;
+}
